@@ -10,7 +10,7 @@
 [Android基础]()
 
   * [四大组件](Android/四大组件.md)
-  * [数据存储](Android/数据存储,md)
+  * [数据存储](Android/数据存储.md)
   * [屏幕适配](Android/屏幕适配.md)
   * [Animation](Android/Animation.md)
   * [视图绘制](Android/视图绘制.md)
@@ -40,6 +40,6 @@
 
 [Misc]()
 
-  * [性能优化](Misc/性能优化,md)
+  * [性能优化](Misc/性能优化.md)
 
 [gimmick:theme](cosmo)
