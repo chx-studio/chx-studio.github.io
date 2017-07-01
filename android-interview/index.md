@@ -1,8 +1,17 @@
-# QuickStart
+# Android 常见面试题集 Wiki
 
-Note: *- [x] 代表已经完成的，- [ ] 表示未完成的*
+## ChangeLog
+
+### 2017.07.01
+
+- 添加 [Java 面向对象](Java/面向对象.md)
+- 添加 [Java String](Java/String.md)
+- 添加 [Java 集合](Java/集合.md)
+- 添加 [Android 四大组件](Android/四大组件.md)
 
 ## TODO
+
+Note: *- [x] 代表已经完成的，- [ ] 表示未完成的*
 
 - Java基础
     - [x] [面向对象](Java/面向对象.md)

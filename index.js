@@ -8,15 +8,15 @@ var port = 80;
 
 http.createServer(function (req, res) {
     var pathName = decodeURI(__dirname + url.parse(req.url).pathname);
+    
+    if (pathName.charAt(pathName.length - 1) === "/") {
+        pathName += "index.html";
+    }
 
     if (path.extname(pathName) === "") {
-        if (pathName.charAt(pathName.length - 1) === "/") {
-            pathName += "index.html";
-        } else {
-            res.writeHead(302, { 'Location': req.url + "/"});
-            res.end();
-            return;
-        }
+        res.writeHead(302, { 'Location': req.url + "/"});
+        res.end();
+        return;
     }
 
     var contentTypes = {
